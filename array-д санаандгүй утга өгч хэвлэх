@@ -1,0 +1,8 @@
+var arr = [];
+
+for(var i = 1; i <= 10; i++){
+  var too =  Math.random()*100;
+  var floorToo = Math.floor(too);
+  arr.push(floorToo);
+  console.log(floorToo);
+  }
