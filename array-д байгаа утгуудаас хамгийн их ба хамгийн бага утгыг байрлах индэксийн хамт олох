@@ -1,0 +1,37 @@
+var arr = [];
+
+for(var i = 1; i <= 10; i++){
+  var too =  Math.random()*100;
+  var floorToo = Math.floor(too);
+  arr.push(floorToo);
+  console.log(floorToo);
+  }
+
+
+var max = 0;
+var maxTooIndex=-1;
+
+for(var i=0; i<=arr.length; i++)
+{
+if(arr[i]>max)
+{
+max=arr[i];
+maxTooIndex=i;
+}
+}
+console.log('Хамгийн их элемент: ' + max +' тэрний индэкс нь: ' 
++ maxTooIndex);
+
+var min = 100;
+var minTooIndex=-1;
+
+for(var i=0; i<=arr.length; i++)
+{
+if(arr[i]<min)
+{
+min=arr[i];
+minTooIndex=i;
+}
+}
+console.log('Хамгийн бага  элемент: ' + min +' тэрний индэкс нь: ' 
++ minTooIndex);
