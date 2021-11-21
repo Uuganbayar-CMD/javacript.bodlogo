@@ -1,0 +1,9 @@
+var sum=0;
+var limit=1000;
+for(var i=1; i<=limit; i++){
+  if(i%7===0){
+    sum=sum+i;
+    console.log(+i)
+  }
+}
+console.log('7d huwaagddg toonii niilber '+sum)
